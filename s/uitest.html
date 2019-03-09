@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        #Slider {
+
+        }
+
+        #Actual {
+            background: silver;
+            color: White;
+            padding: 20px;
+        }
+
+        .slideup, .slidedown {
+            max-height: 0;
+            overflow-y: hidden;
+            -webkit-transition: max-height 0.5s ease-in-out;
+            -moz-transition: max-height 0.5s ease-in-out;
+            -o-transition: max-height 0.5s ease-in-out;
+            transition: max-height 0.5s ease-in-out;
+        }
+
+        .slidedown {
+            max-height: 60px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+            border-bottom: 1px solid #ccc;
+        }
+
+        li:last-child {
+            border: none;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #000;
+
+            -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+            -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+            -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+            -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+            transition: font-size 0.3s ease, background-color 0.3s ease;
+            display: block;
+            width: 100%;
+        }
+
+        li a:hover {
+            font-size: 30px;
+        }
+
+
+        li:hover {
+            background: #f6f6f6;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <ul>
+        <ul>
+            <li>
+                <div style="float:right">vvv</div><a class="item" href="#">Zurich</a>
+                <div class="slideup">123</div>
+            </li>
+            <li>
+                <div style="float:right">vvv</div><a class="item" href="#">Zurich</a>
+                <div class="slideup">123</div>
+            </li>
+            <li>
+                <div style="float:right">vvv</div><a class="item" href="#">Zurich</a>
+                <div class="slideup">123</div>
+            </li>
+            <li>
+                <div style="float:right">vvv</div><a class="item" href="#">Zurich</a>
+                <div class="slideup">123</div>
+            </li>
+            <li>
+                <div style="float:right">vvv</div><a class="item" href="#">Zurich</a>
+                <div class="slideup">123</div>
+            </li>
+            <li>
+                <div style="float:right">vvv</div><a class="item" href="#">Zurich</a>
+                <div class="slideup">123</div>
+            </li>
+            <li>
+                <div style="float:right">vvv</div><a class="item" href="#">Zurich</a>
+                <div class="slideup">123</div>
+            </li>
+        </ul>
+    </ul>
+</div>
+
+<script src="vendor/jquery/jquery.js"></script>
+<script>
+    // slideup/slidedown
+    $(".item").click(function () {
+        var content = $(this).parent().find("div");
+        if (content.hasClass("slideup"))
+            content.removeClass("slideup").addClass("slidedown");
+        else
+            content.removeClass("slidedown").addClass("slideup");
+    });
+</script>
+</body>
+</html>
