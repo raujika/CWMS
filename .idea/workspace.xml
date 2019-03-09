@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statistic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="163" column="83" selection-start-line="163" selection-start-column="83" selection-end-line="163" selection-end-column="83" />
+            <state relative-caret-position="282">
+              <caret line="164" column="63" lean-forward="true" selection-start-line="164" selection-start-column="63" selection-end-line="164" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -136,6 +136,9 @@
       <replace>$_POST</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -178,12 +181,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="120" />
     <option name="y" value="146" />
     <option name="width" value="1285" />
     <option name="height" value="845" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -270,12 +274,12 @@
       <workItem from="1551098262638" duration="9265000" />
       <workItem from="1551626807894" duration="30460000" />
       <workItem from="1552015975060" duration="930000" />
-      <workItem from="1552140566062" duration="650000" />
+      <workItem from="1552140566062" duration="1246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95273000" />
+    <option name="totallyTimeSpent" value="95869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -548,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statistic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="163" column="83" selection-start-line="163" selection-start-column="83" selection-end-line="163" selection-end-column="83" />
+        <state relative-caret-position="282">
+          <caret line="164" column="63" lean-forward="true" selection-start-line="164" selection-start-column="63" selection-end-line="164" selection-end-column="63" />
         </state>
       </provider>
     </entry>
